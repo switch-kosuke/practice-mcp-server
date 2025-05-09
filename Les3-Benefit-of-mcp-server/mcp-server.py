@@ -17,11 +17,7 @@ def get_text_length(text: str) -> int:
     )  
     return len(text)
 
-# @mcp.tool()
-# def add(a: int, b: int) -> int:
-#     """Add two numbers"""
-#     return a + b
-
 if __name__ == "__main__":
     print("Starting MCP server in stdio mode")
     mcp.run(transport="stdio")
+    # mcp.run(transport="sse")
