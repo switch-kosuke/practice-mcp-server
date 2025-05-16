@@ -20,8 +20,8 @@ async def get_llm_response(query: str) -> str:
     # tools = [get_text_length]
 
     params = mcp.StdioServerParameters(
-        command="/home/k230415017-kosuke/.local/bin/uv",
-        args=["run", "/home/k230415017-kosuke/code/practice-mcp-server/Les3-Benefit-of-mcp-server/mcp-server.py"],
+        command="path/to/uv",
+        args=["run", "path/to/practice-mcp-server/Les3-Benefit-of-mcp-server/mcp-server.py"],
     )
 
     
